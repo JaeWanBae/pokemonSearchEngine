@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7f26b08e3d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <title>Pokemon Search Engine</title>
+</head>
+<body>
+    <Header>
+        <h1><img src="./assets/pokemon-logo.png" class="logo" alt="Pokemon Logo">Search Engine</h1>
+    </Header>
+
+    <section>
+        <div class="wrapper">
+            <div class="pokesearch">
+                <form>
+                    <input type="text" placeholder="Charizard">
+                    <input type="image" src="./assets/poke-ball.png" alt="search pokemon" class="pokeball">
+                </form>
+            </div>
+            <div class="image-container">
+                <h3 class="pokemonName">Pokemon Name</h3>
+                <img src="./assets/mystery-pokemon.jpg" alt="image of pokemon" class="pokemonImage">
+                <h3 class="pokedexNumber">#9999</h3>
+                <h3 class="type">Pokemon Type</h3>
+                <input type="image" src="./assets/pokemon-card.png" alt="pokemon card search" class="pokemonCard shiny" title="click here to show/hide TCG">
+                <div class="showCards hide"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Created for Juno College by Peter Bae</p>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
