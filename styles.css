@@ -182,6 +182,7 @@ h3 {
 @media (max-width: 550px) {
     .showCards {
         width: 260px;
+        bottom: 200px;
     }
 
     footer p {
